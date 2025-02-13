@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b86db94a-5884-4305-bcc2-684f0c962f6c" name="Changes" comment="Commit 13 febrero">
+    <list default="true" id="b86db94a-5884-4305-bcc2-684f0c962f6c" name="Changes" comment="commit consola">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739459718578</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit consola">
+      <option name="closed" value="true" />
+      <created>1739461108575</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739461108575</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +125,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="second commit" />
     <MESSAGE value="Commit 13 febrero" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 13 febrero" />
+    <MESSAGE value="commit consola" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit consola" />
   </component>
 </project>

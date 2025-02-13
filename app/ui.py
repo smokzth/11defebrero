@@ -54,7 +54,15 @@ class TiendaUI:
             return
 
         tabla: Table = Table(title="Lista de productos", box=box.SQUARE_DOUBLE_HEAD)
-        tabla.add_column("#")
+        tabla.add_column("#", style="cyan")
+        tabla.add_column("Nombre", style="magenta")
+        tabla.add_column("Precio",style="blue")
+
+        for i in range(len(self.tienda.productos)):
+            tabla.add_row(str(i+1), self.tienda.productos[i].nombre,
+                          str(self.tienda.productos[i].precio))
+
+        self.consola.print((tabla))
 
 
 

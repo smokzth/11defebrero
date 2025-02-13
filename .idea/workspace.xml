@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b86db94a-5884-4305-bcc2-684f0c962f6c" name="Changes" comment="Menu opciones tipo str">
-      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+    <list default="true" id="b86db94a-5884-4305-bcc2-684f0c962f6c" name="Changes" comment="commit tabla">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739462174343</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit tabla">
+      <option name="closed" value="true" />
+      <created>1739464551555</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739464551555</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,7 +179,8 @@
     <MESSAGE value="Commit 13 febrero" />
     <MESSAGE value="commit consola" />
     <MESSAGE value="Menu opciones tipo str" />
-    <option name="LAST_COMMIT_MESSAGE" value="Menu opciones tipo str" />
+    <MESSAGE value="commit tabla" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit tabla" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

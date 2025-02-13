@@ -9,7 +9,7 @@ class Producto:
 
 
 
-class cliente:
+class Cliente:
     def _init_(self, nombre: str):
         self.carrito: str = nombre
         self.carrito: list[producto] = []
@@ -30,7 +30,7 @@ class cliente:
 
         return total
 
-class tienda:
+class Tienda:
     def _init_(self, nombre: str):
         self.nombre: str = nombre
         self.productos:list[Producto] = []

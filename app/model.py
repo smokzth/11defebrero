@@ -1,6 +1,6 @@
 class Producto:
 
-    def _init_ (self, nombre: str, precio: float):
+    def __init__(self, nombre: str, precio: float):
         self.nombre: str = nombre
         self.precio: float = precio
 
@@ -8,11 +8,10 @@ class Producto:
         return f"{self.nombre} - {self.precio}"
 
 
-
 class Cliente:
-    def _init_(self, nombre: str):
-        self.carrito: str = nombre
-        self.carrito: list[producto] = []
+    def __init__(self, nombre: str):
+        self.nombre: str = nombre
+        self.carrito: list[Producto] = []
 
     def agregar_producto(self, producto: Producto):
         self.carrito.append(producto)
@@ -30,10 +29,11 @@ class Cliente:
 
         return total
 
+
 class Tienda:
-    def _init_(self, nombre: str):
+    def __init__(self, nombre: str):
         self.nombre: str = nombre
-        self.productos:list[Producto] = []
+        self.productos: list[Producto] = []
 
     def agregar_producto(self, producto: Producto):
         self.productos.append(producto)
